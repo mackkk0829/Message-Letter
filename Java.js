@@ -101,7 +101,7 @@ Thank you for being there for me, for making me laugh, and for loving me just th
     if(e.target === letterModal) closeLetter();
   });
 
-  // ---------- Background music: "Minamahal" by Earl Agustin ----------
+  // ---------- Background music: "StarSong" by Rob Daniel ----------
   const YT_VIDEO_ID = 'IvnVeQ-so8Q';
   const musicToggle = document.getElementById('musicToggle');
   let ytPlayer = null;
