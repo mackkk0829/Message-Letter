@@ -76,15 +76,6 @@
     max-width:640px;
   }
 
-  .eyebrow{
-    font-family:'Cormorant Garamond', serif;
-    letter-spacing:0.35em;
-    text-transform:uppercase;
-    font-size:12px;
-    color:var(--rose-soft);
-    text-align:center;
-  }
-
   .headline{
     font-family:'Great Vibes', cursive;
     font-size:clamp(40px, 8vw, 64px);
@@ -177,7 +168,7 @@
     pointer-events:none;
   }
 
-  .seal svg{ width:22px; height:22px; }
+  .seal svg{ width:25px; height:22px; }
 
   .hint{
     position:absolute;
@@ -189,7 +180,7 @@
     font-size:13px;
     color: var(--maroon);
     letter-spacing:0.04em;
-    opacity:0.75;
+    opacity:0.5;
     z-index:5;
     animation: pulseHint 2.4s ease-in-out infinite;
   }
@@ -218,7 +209,7 @@
   }
 
   .envelope.open .letter{
-    z-index:6;
+    z-index:10;
   }
 
   /* ---------- Modal / expanded letter ---------- */
@@ -277,9 +268,11 @@
     font-size:13px;
     text-transform:uppercase;
     margin-bottom:6px;
+    text-align:right;
   }
 
   .paper-title{
+    text-align:left;
     font-family:'Great Vibes', cursive;
     font-size: clamp(34px, 6vw, 46px);
     color: var(--maroon-deep);
@@ -340,20 +333,46 @@
   }
 
   .paper-photo{
+    position: relative;
+    scale: 0.80;
+    top: -35px;
+    margin-top: 50px;
+    right: -75px;
     background: #fffdfb;
     padding: 10px 10px 26px;
     border-radius: 4px;
-    box-shadow: 0 14px 30px -10px rgba(57,24,77,0.4), 0 0 0 1px rgba(203,160,224,0.4);
-    transform: rotate(-3deg);
+    box-shadow: 0 14px 30px 10px rgba(57,24,77,0.4), 0 0 0 1px rgba(203,160,224,0.4);
+    transform: rotate(-15deg);
+    z-index: 1;
+  }
+
+  .paper-photo.photo-right{
+    top: -35px;
+    scale: 0.80;
+    left: 80px;
+    transform: rotate(15deg);
+    z-index: 2;
+    margin:auto
+    margin-left: -20px;
   }
 
   .paper-photo img{
     display:block;
     width: 150px;
-    height: 190px;
+    height: 250px;
     object-fit: cover;
     border-radius: 2px;
   }
+
+  .paper-photo.photo-top{
+    top: -50px;
+    scale: 0.90;
+    left: -155px;
+    transform: rotate(0deg);
+    z-index: 3;
+    margin-left: -20px;
+  }
+   
 
   .close-btn{
     position:absolute;

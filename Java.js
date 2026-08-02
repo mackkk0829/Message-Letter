@@ -33,15 +33,18 @@
   const miniHearts = document.getElementById('miniHearts');
 
   const message =
-`Happy GF Day, Mahal! ❤️
+`I just wanted to tell you how much you mean to me. You are the light of my life, and I am so grateful for every moment we share together. Your smile brightens my day, and your laughter is like music to my ears. Every time we call, I love hearing your voice because it always makes me feel lighter. I love how we talk about everything that happened during our day, and how we can be silly and laugh together.
 
-Simpleng paalala lang ito na ang bawat araw na kasama kita ay isang bagay na lubos kong pinasasalamatan.
+Kaya sa tuwing hindi tayo nakakapag-call, parang may kulang sa araw ko. Hindi kumpleto ang araw ko kapag hindi ko man lang naririnig ang boses mo. Daig ko pa ang nawasakan ng mundo kung hindi ko manlang marinig yung boses mo.
 
-Lalo na ngayong nagsimula na naman ang bagong buwan — salamat sa pagsama mo sa akin papasok ng August 1. Munti man 'yon para sa iba, para sa akin, doon ko lalo pang naramdaman kung gaano ako kaswerte na ikaw ang kasama ko sa simpleng araw-araw.
+Hindi ko talaga makakalimutan yung mga jokes mo noong hindi pa tayo masyadong magkakilala. Kahit umabot na sa punto sinasabing mong corny na ng joke, doon ako napapabilib sa kung paano mo naiisip at nagagawa ang mga joke na yon. isa rin nayon sa mga dahilan kung bakit tayo naging close. Kaya idol talaga kita e!
 
-Salamat sa pagmamahal, sa pag-unawa, at sa pagiging ikaw. Sana patuloy nating gawing masaya ang bawat simula — hindi lang ng buwan, kundi pati ng bawat araw na magkasama tayo.
+Napakalaking bahagi mo ng buhay ko, Kimkim ko. Dahil sayo, mas natutunan kong magtiwala sa sarili ko at gawin ang best ko sa lahat ng bagay. Sa tuwing nalulungkot ako o pinanghihinaan ng loob, nandiyan ka palagi para ipaalala sa akin na kaya ko. sobrang thankful ako dahil dumating ka sa buhay ko.
 
-I love you, Mahal. Palagi.`;
+Ginawa ko nang mas creative way ito dahil gusto ko iparamdam sayo na gaano ka kahalaga sakin kaya ko ito nagawa.
+
+Thank you for being there for me, for making me laugh, and for loving me just the way I am. And, i remind you that i'm always here even upside down. So may mga problema man tayo sa isa't isa, i'll be there para samahan ka.  Iloveyaaalotss kimkim!
+`;
 
   let typing = false;
   let typedOnce = false;
@@ -143,5 +146,5 @@ I love you, Mahal. Palagi.`;
 
   musicToggle.addEventListener('click', toggleMusic);
 
-  // start the song the moment she opens the envelope
+  // start the song when the envelope is opened
   envelope.addEventListener('click', playMusic);
