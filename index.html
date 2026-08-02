@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Sa'yo, Mahal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <button class="music-toggle" id="musicToggle" aria-label="I-play/pause ang music" title="Minamahal — Earl Agustin">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+  <div id="ytPlayerHolder"><div id="ytPlayer"></div></div>
+
+  <div class="stage">
+    <div class="eyebrow">Isang munting</div>
+    <h1 class="headline">Para Sa'yo, Mahal</h1>
+    <p class="subline">May naka-lock na letter dito para sa'yo &mdash; i-click ang envelope para buksan ito.</p>
+
+    <div class="envelope-wrap">
+      <div class="envelope" id="envelope">
+        <div class="envelope-body">
+          <div class="letter"></div>
+        </div>
+        <div class="flap"></div>
+        <div class="seal">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 21s-7.5-4.6-10-9.3C.4 8 2.3 4.5 5.8 4.1c2-.2 3.7.8 6.2 3.3 2.5-2.5 4.2-3.5 6.2-3.3 3.5.4 5.4 3.9 3.8 7.6C19.5 16.4 12 21 12 21z" fill="#fff8f2"/>
+          </svg>
+        </div>
+        <div class="hint">Click Me!&hearts;</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="letter-modal" id="letterModal">
+    <div class="paper" id="paper">
+      <button class="close-btn" id="closeBtn" aria-label="Isara">&times;</button>
+      <div class="mini-hearts" id="miniHearts"></div>
+      <div class="paper-heading">August 02, 2026</div>
+      <div class="paper-title">Dear Kim,</div>
+      <div class="paper-photo-wrap">
+        <div class="paper-photo">
+          <img src="kimkimganda.jpg" alt="ikaw">
+        </div>
+      </div>
+      <div class="paper-body" id="paperBody"></div>
+      <div class="paper-sign" id="paperSign">Nagmamahal, Mc.&hearts;</div>
+    </div>
+  </div>
+
+  <script src="Java.js?v=2"></script>
+
+  </body>
+  </html>
