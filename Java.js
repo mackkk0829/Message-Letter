@@ -99,7 +99,7 @@ I love you, Mahal. Palagi.`;
   });
 
   // ---------- Background music: "Minamahal" by Earl Agustin ----------
-  const YT_VIDEO_ID = 'h9vLQMyGNck';
+  const YT_VIDEO_ID = 'IvnVeQ-so8Q';
   const musicToggle = document.getElementById('musicToggle');
   let ytPlayer = null;
   let ytReady = false;
